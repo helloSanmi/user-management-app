@@ -1,10 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import './App.css';
-import Dashboard from "./components/Dashboard/Dashboard";
-import Preferences from "./components/Preferences/Preferences";
-import Login from "./components/Login/Login";
-import useToken from "./components/App/useToken";
+import '../../App.css';
+import Dashboard from "../Dashboard/Dashboard";
+import Preferences from "../Preferences/Preferences";
+import Login from "../Login/Login";
+import useToken from "./useToken";
 
 function App() {
   const { token, setToken } = useToken();
